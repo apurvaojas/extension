@@ -1,8 +1,60 @@
-<!doctype html>  
-<html>  
-    <head><title>activity</title></head>  
-<body>  
-    <button id="clickactivity">click</button>  
-    <script src="popup.js"></script> 
+<!doctype html>
+<html>
+
+<head>
+    <title>activity</title>
+</head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="./vender/css/bootstrap.min.css">
+
+<body style="width: 400px;">
+    <div class="panel panel-default">
+        <div class="panel-body">
+            <h3>Refresh Page Settings </h3>
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label">Select Refresh Time in ms</label>
+                    <div class="col-sm-10">
+                        <select id="rf-time" class="form-control">
+                            <option>1000</option>
+                            <option>2000</option>
+                            <option>3000</option>
+                            <option>4000</option>
+                            <option>5000</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                        <label class="col-sm-2 control-label">Select WebSite</label>
+                        <div class="col-sm-10">
+                            <select id="rf-website" class="form-control">
+                                <option></option>
+                                <option>flipkart.com</option>
+                                <option>amazon.com</option>
+                                <option>mi.com</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                            <label class="col-sm-2 control-label">Select pages</label>
+                            <div class="col-sm-10">
+                                <select id="rf-pages" class="form-control">
+                                    
+                                </select>
+                            </div>
+                        </div>
+                        <div>
+                                <button type="button"  id="rf-activate" class="btn btn-warning">Activate</button>
+                        </div>
+                        
+            </form>
+
+        </div>
+    </div>
+    <button id="clickactivity">click</button>
+    <script src="./vender/js/jquery-3.3.1.min.js"></script>
+    <script src="./vender/js/bootstrap.min.js"></script>
+    <script src="popup.js"></script>
 </body>
-</html>  
+
+</html>
